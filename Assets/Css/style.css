@@ -1,0 +1,199 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* =============HEADER CSS STARTS============= */
+/* ===============HEADER SECTION 1 CSS STARTS==========*/
+#Section1{
+    background-color: #000000c4;
+    color: white;
+    padding: 20px 15px;
+}
+#Container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Marquee{
+    width: 580px;
+}
+.socialmedia a{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+}
+.MarqueeCont p{
+    margin: auto 0px;
+    font-weight: bold;
+}
+.socialmedia i{
+    font-size: 20px;
+}
+.socialmedia a:hover{
+   color: orange;
+}
+#Select{
+    border: none;
+    border-radius: 20px;
+}
+/* MEDIA QUERY FOR MARQUEE */
+
+@media (max-width:728px) {
+.Marquee{
+    width: 132px;
+}
+.socialmedia i{
+    font-size: 18px;
+}
+}
+
+/* ===============HEADER SECTION 1 CSS ENDS==========*/
+/* ===============HEADER SECTION 2 CSS STARTS==========*/
+
+#Section-2-nav{
+    background-color: #000000c4;
+    color: white;
+}
+#Container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Brand{
+    color: white;
+    /* font-weight: bold; */
+}
+#Links{
+    display: flex;
+    /* gap: 50px; */
+}
+#Links a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+#NavUl{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#NavUl a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#NavIcons i{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* ===============HEADER SECTION 2 CSS ENDS==========*/
+/* ================HEADER CSS ENDS================== */
+
+/* ==============BODY BG CSS STARTS===================  */
+.carousel-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+.carousel-caption{
+    position: relative;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carousel-caption p{
+    width: 750px;
+    margin: 0px auto;
+    line-height: 30px;
+}
+.carousel-caption a{
+    width: 150px;
+    background-color: #dd7210;
+    color: white;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 14px 8px;
+    border-radius: 150px;
+}
+.carousel-caption a:hover{
+    background-color: white;
+    color: #dd7210;
+    
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    top: 55%;
+    background-color: #dd7210;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    transition: 2s;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    top: 55%;
+    background-color: #dd7210;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px;
+    transition: 2s;
+}
+.carousel-control-next-icon:hover{
+    transform: translateX(20px);
+}
+.carousel-control-prev-icon:hover
+{
+    transform: translateX(-20px);
+}
+.carousel-caption h5{
+    color: #dd7210;
+}
+
+
+@media (max-width:768px) {
+    .carousel-caption{
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    .carousel-caption p{
+    width: 250px;
+    margin: 0px auto;
+    line-height: 30px;
+    text-align: justify;
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    top: 45%;
+    background-color: blue;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+}
+.carousel-control-next-icon{
+    position: absolute;
+    top: 45%;
+    background-color: blue;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+}
+/* ==============BODY BG CSS ENDS=================== */
