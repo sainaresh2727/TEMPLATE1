@@ -240,12 +240,12 @@
 }
 @media (max-width:768px) {
     .Img1>img{
-    height: 330px;
-    width:  330px;
+    height: 280px;
+    width:  280px;
 }
     .Img2>img{
-    height: 330px;
-    width:  330px;
+    height: 280px;
+    width:  280px;
 }
 }
 /* =============DECORATION CSS ENDS=============== */
