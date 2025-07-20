@@ -3,6 +3,9 @@
     margin:0px;
     cursor: pointer;
 }
+body{
+    overflow-x: hidden;
+}
 /* =============HEADER CSS STARTS============= */
 /* ===============HEADER SECTION 1 CSS STARTS==========*/
 #Section1{
