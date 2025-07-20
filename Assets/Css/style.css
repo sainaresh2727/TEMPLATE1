@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    cursor: pointer;
 }
 /* =============HEADER CSS STARTS============= */
 /* ===============HEADER SECTION 1 CSS STARTS==========*/
@@ -8,6 +9,7 @@
     background-color: #000000c4;
     color: white;
     padding: 20px 15px;
+    
 }
 #Container1{
     display: flex;
@@ -53,6 +55,10 @@
 #Section-2-nav{
     background-color: #000000c4;
     color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
 }
 #Container2{
     display: flex;
@@ -197,3 +203,316 @@
 }
 }
 /* ==============BODY BG CSS ENDS=================== */
+/* =============DECORATION CSS STARTS=============== */
+#Decoration{
+    background-color: #000000c4;
+    color: white;
+    padding-bottom: 120px;
+}
+.Img1>img{
+    height: 520px;
+    width:  520px;
+    border-radius: 50px;
+    transition: 2s;
+}
+#DecRow1{
+    padding-top: 60px;
+}
+.Img2>img{
+    height: 520px;
+    width: 520px;
+    border-radius: 50px;
+    transition: 2s;
+}
+.DecContent1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.DecContent2 p{
+   margin-top: 20px;
+}
+.Img1>img:hover{
+    transform: translateY(40px);
+}
+.Img2>img:hover{
+    transform: translateY(-40px);
+}
+@media (max-width:768px) {
+    .Img1>img{
+    height: 400px;
+    width:  400px;
+}
+    .Img2>img{
+    height: 400px;
+    width:  400px;
+}
+}
+/* =============DECORATION CSS ENDS=============== */
+/* ===========CLICKABLE BG  CSS STARTS============= */
+#MainClick{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/SofaCk1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+#ClickCont{
+    min-height: 100vh;
+    position: relative;
+    
+}
+.BgClick{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 120px;
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px;
+    gap: 130px;
+    
+}
+.Clickable{
+    transition: 2s;
+    cursor: pointer;
+}
+.Clickable:hover{
+    color: white;
+}
+@media (max-width:768px) {
+    .BgClick{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center; 
+    flex-wrap: wrap;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    gap: 30px;
+    
+}
+}
+
+/* ===========CLICKABLE BG  CSS ENDS============= */
+/* ==========ADD TO CART CSS STARTS================ */
+#AddToCartParent
+{
+    background-color:#000000c4;
+}
+.TextBuy{
+    color:#dd7210;
+}
+#AddtoContainer h3{
+    letter-spacing: 8px;
+}
+/* ==========ADD TO CART CSS ENDS================ */
+/* ==========CUSTOMER FEEDBAC CSS STARTS========== */
+#Feedback{
+    height:380px;
+    width: 350px;
+} 
+
+#CustomerFeedback{
+    background-color: #000000c4;
+    height: 100vh;
+}
+#Meet{
+    color: white;
+    letter-spacing: 8px;
+}
+#PrevIcon{
+    position: absolute;
+    top: 170px;
+}
+#NextIcon{
+    position: absolute;
+    top: 170px;
+}
+@media (max-width:768px) {
+    #CustomerFeedback{
+    background-color: #000000c4;
+    height: 50vh;
+}
+#Feedback{
+    height:380px;
+    width: 350px;
+} 
+}
+/* ==========CUSTOMER FEEDBACK CSS ENDS========== */
+/* =======EXPLORE OUR BLOG CSS STARTS============ */
+#Blog
+{
+    color: white;
+    background-color: #000000c4;
+}
+#BlogCol1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+}
+#BlogCol1 img
+{
+    transition: 2s;
+    border-radius: 20px;
+    width:  100%;
+}
+#BlogCol1 img:hover{
+    transform: scale(1.1);
+}
+.ImgBlog2 img{
+    height: 120px;
+    border-radius: 20px;
+    transition: 2s
+}
+.ImgBlog2 img:hover{
+    transform: scale(1.1);
+}
+.Blog2Card{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    
+}
+
+#Blog2Prent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Blog-p{
+    color: #dd7210;
+}
+.Blog{
+    letter-spacing: 6px;
+    color: #dd7210;
+}
+.HoverOrng{
+    
+    transition: 2s;
+}
+.HoverOrng:hover{
+    color: #dd7210;
+}
+#BlogCard p,h5{
+    color: black;
+}
+
+@media (max-width:768px) {
+    #Blog{
+        padding-top: 50px;
+    }
+}
+
+/* =======EXPLORE OUR BLOG CSS ENDS============ */
+/* ========LOGIN PAGE MODAL CSS STARTS==========*/
+#Form label{
+    margin-top: 10px;
+}
+#EyeClose{
+    display: none;
+}
+/* ========LOGIN PAGE MODAL CSS ENDS==========*/
+/* =========CONTACT PAGE CSS STARTS========= */
+#ContactParent{
+    background-color: #000000c4;
+    color: white;
+}
+#ContactCol1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+    /* border: solid 1px black; */
+}
+.Contactimg img{
+    height: 520px;
+    width:  520px;
+    border-radius: 30px;
+    transition: 2s;
+}
+.ContactText{
+    color: #dd7210;
+}
+#ContactCol2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.ContactContent2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+}
+.Contactimg img:hover{
+    transform: scale(1.1);
+}
+@media (max-width:768px) {
+.Contactimg img{
+    height: 390px;
+    width:  390px;
+    border-radius: 30px;
+    transition: 2s;
+}
+}
+/* =========CONTACT PAGE CSS ENDS========= */
+/* =========FOOTER CSS STARTS================ */
+#Footer{
+    background-color:black;
+    color: white ;
+    padding-top: 40px;
+}
+#Footer h3,h5
+{
+    color: white;
+}
+#Footer h5:hover
+{
+    color:#dd7210;
+}
+#Footer h3:hover
+{
+    color:#dd7210;
+}
+#Credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#SAI {
+    animation: sai 3s ease-in-out infinite;
+    letter-spacing: 4px;
+}
+
+@keyframes sai {
+    0% {
+        color: blue;
+    }
+    15% {
+        color: red;
+    }
+    30%{
+        color: aqua;
+    }
+    45%{
+        color: orangered;
+    }
+    60%{
+        color: blueviolet;
+    }
+    75%{
+        color: tomato;
+    }
+
+    100% {
+        color: #dd7210;
+    }
+}
+
+/* =========FOOTER CSS ENDS================ */

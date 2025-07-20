@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- ============LINKING HTML WITH CSS============== -->
-     <link rel="stylesheet" href="./Assets/Css/style.css">
-
+<link rel="stylesheet" href="./Assets/Css/style.css">
      <!-- ============BOOTSTRAP CDN LINK=========== -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-      <!-- ======FONT AWESOME CDN LINK===== -->
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ======FONT AWESOME CDN LINK===== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- ==========AOS ANIMATION LINK=========== -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
 </head>
 <body>
     <!-- ===========HEADER STARTS============= -->
      <!-- ===========HEADER SECTION-1 STARTS===== -->
-      <section class="container-fluid" id="Section1">
+        <section class="container-fluid" id="Section1">
         <div class="container" id="Container1">
         <div class="socialmedia d-flex gap-3">
         <a href=""><i class="fa-brands fa-instagram"></i></a>
@@ -83,12 +88,11 @@
          </div>
 
          <!-- ICONS -->
-          <div id="NavIcons" class="d-flex gap-2">
+          <div id="NavIcons" class="d-flex gap-3">
             <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
             <a href=""><i class="fa-regular fa-heart"></i></a>
-            <a href=""><i class="fa-solid fa-arrows-rotate"></i></a>
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href=""><i class="fa-regular fa-user"></i></a>
+           <span><i class="fa-solid fa-cart-shopping" data-bs-toggle="modal" data-bs-target="#AddtoCart"></i></span>
+           
           </div>
         </div>
       </section>
@@ -164,7 +168,464 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+ <!--============BODY BG ENDS============= -->
+ <!-- =========DECORAT5ION DIV STARTS========== -->
+  <section class="container-fluid" id="Decoration">
+  <div class="container">
+  <div class="row" id="DecRow1">
+  <div class="col-lg-6 col-12">
+  <div class="Img1" data-aos="fade-right" data-aos-duration="3000">
+  <img src="./Assets/Images/DecorationImg1.webp" alt="">
+  </div>
+  <div class="DecContent1 mt-5" data-aos="flip-left" data-aos-duration="3000">
+  <h5 style="color: #dd7210;">HOME DECOR HUB</h5>
+  <h3>Exceptional Furniture's For Indoor & Outdoor</h3>
+  <p>Ut eleifend mattis ligula, porta finibus urna gravida at. Aenean vehicula sodales arcu non mattis. Integer dapibus ac dui pretium blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+  </div>
+  </div>
 
-     <!--============BODY BG ENDS============= -->
+  <div class="col-lg-6 col-12">
+  <div class="DecContent2" data-aos="flip-right" data-aos-duration="3000">
+  <h4 style="color: #dd7210;">Discover Endless Designs</h4>
+  <p>Integer dapibus ac dui pretium blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut eleifend mattis ligula, porta finibus urna gravida at. Aenean vehicula sodales arcu non mattis.</p>
+ <div style="display: flex; flex-direction: column; gap: 10px;">
+ <p style="display: flex; gap: 12px;"> 
+  <span>
+  <i class="fa-solid fa-check" style="color: #dd7210;"></i>
+</span>
+<span>
+  Ut eleifend mattis ligula, porta finibus urna gvida at
+</span>
+ </p>
+  
+ <p style="display: flex; gap: 12px;"> 
+<span><i class="fa-solid fa-check" style="color: #dd7210;"></i>
+</span>
+ <span>Integer dapibus ac dui pretium blanss aptent.</span> 
+</p>
+  
+<p style="display: flex; gap: 12px;"> 
+<span><i class="fa-solid fa-check" style="color: #dd7210;"></i>
+</span>
+<span>
+  Aenean vehicula sodales arcu non mattis.
+</span>
+</p>
+ </div>
+ </div>
+  <div class="Img2 mt-5" data-aos="fade-left" data-aos-duration="3000">
+  <img src="./Assets/Images/DecorationImg2.webp" alt="">
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  </section>
+ <!-- =========DECORAT5ION DIV ENDS========== -->
+  <!-- ========CLICKABLE BG  STARTS===============-->
+   <section class="container-fluid" id="MainClick">
+    <div class="container" id="ClickCont">
+    <div class="BgClick">
+    <h1 class="Clickable" onmouseover="BgChange()" data-aos="flip-up" data-aos-duration="3000">SHOFA</h1>
+    <h1 class="Clickable" onmouseover="BgChange('CABINNET')" data-aos="flip-up" data-aos-duration="3000">CABINNET</h1>
+    <h1 class="Clickable" onmouseover="BgChange('SHELVINGUNITS')" data-aos="flip-up" data-aos-duration="3000">SHELVING UNITS</h1>
+    <h1 class="Clickable" onmouseover="BgChange('TEATABLE')" data-aos="flip-up" data-aos-duration="3000">TEA TABLE</h1>
+    <h1 class="Clickable" onmouseover="BgChange('KITCHENFURNITURE')" data-aos="flip-up" data-aos-duration="3000">KITCHEN FURNITURE</h1>
+    <h1 class="Clickable" onmouseover="BgChange('DECORS')" data-aos="flip-up" data-aos-duration="3000">DECORS</h1>
+    <h1 class="Clickable" onmouseover="BgChange('OFFICETABLE')" data-aos="flip-up" data-aos-duration="3000">OFFICE TABLE</h1>
+    <h1 class="Clickable" onmouseover="BgChange('ST')" data-aos="flip-up" data-aos-duration="3000">STORAGE FURNITURE</h1>
+    </div>
+    </div>
+   </section>
+  <!-- ========CLICKABLE BG  ENDS===============-->
+   <!-- =======ADD TO CART STARTS=============== -->
+  <section class="container-fluid p-5"id="AddToCartParent">
+  <div class="container" id="AddtoContainer">
+  <h5 class="text-center TextBuy">BUY NOW</h5>
+  <h3 class="text-center TextBuy">LUXURIOUS HAVEN COLLECTION</h3>
+  <div class="row" id="AddToCartRow">
+    
+  </div>
+  </div>
+  </section>
+
+    <!-- =======MODAL FOR ADDED ITEMS======= -->
+     <div class="modal fade w-100" id="AddtoCart">
+  <div class="modal-dialog h-100">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Added Items</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    <div class="modal-body">
+    <section class="container-fluid">
+    <div class="container">
+    <table class="table responsive">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Remove</th>
+      </tr>
+    </thead>
+    <tbody id="AddedBody">
+     
+    </tbody>
+    </table>
+    </div>
+    </section>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- =======ADD TO CART ENDS=============== -->
+<!-- ======CUSTOMER FEEDBACK STARTS========== -->
+<section class="container-fluid pt-5" id="CustomerFeedback">
+<div class="container">
+  <h2 class="text-center" id="Meet">MEET OUR CUSTOMER</h2>
+<div id="simpleCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner mt-5">
+  
+    <div class="carousel-item active">
+  <div class="card mx-auto" id="Feedback">
+  <img src="./Assets/Images/Person1.jpeg" alt="">
+  <div class="card-body">
+  <h4 class="text-center">James Hanser</h4>
+  <p class="text-center">One of the best home decor stores I’ve visited! Beautiful collection and very helpful staff. Will definitely come back"</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+  <div class="card mx-auto" id="Feedback">
+  <img src="./Assets/Images/Person2.jpeg" alt="">
+  <div class="card-body">
+  <h4 class="text-center">Joe Root</h4>
+  <p class="text-center">"Nice shop, but I wish they had more budget-friendly options. Still loved the vases and lighting section."</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+   <div class="card mx-auto" id="Feedback">
+  <img src="./Assets/Images/Person5.jpeg" alt="">
+  <div class="card-body">
+  <h4 class="text-center">Ellia Perry</h4>
+  <p class="text-center">Lovely ambiance and well-organized displays. Found exactly what I needed for my living room makeover.</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+   <div class="card mx-auto" id="Feedback">
+  <img src="./Assets/Images/Person6.jpeg" alt="">
+  <div class="card-body">
+  <h4 class="text-center">Alixa Bliss</h4>
+  <p class="text-center">"Fast delivery and well-packaged items. The online shop is smooth and easy to use too."</p>
+  </div>
+  </div>
+  </div>
+
+  <div class="carousel-item">
+   <div class="card mx-auto" id="Feedback">
+  <img src="./Assets/Images/Person7.jpeg" alt="">
+  <div class="card-body">
+  <h4 class="text-center">Nathaliya</h4>
+  <p class="text-center">"Excellent experience! The staff helped me choose the perfect centerpiece for my dining table. Highly recommend this place."</p>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#simpleCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" id="PrevIcon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#simpleCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" id="NextIcon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</section>
+
+<!-- ======CUSTOMER FEEDBACK ENDS========== -->
+ <!--======EXPLORE BLOG STARTS============== -->
+ <section class="container-fluid" id="Blog">
+<div class="container">
+<div class="text-center">
+<p class="Stories">ACCESS THE LATEST STORIES</p>
+<h5 class="Blog">EXPLORE OUR LATEST BLOG</h5>
+</div>
+<!-- ======FOR LARGE SCREENS ONLY====== -->
+<div class="row d-none d-lg-flex mt-5">
+<div class="col-lg-6" id="BlogCol1">
+<img src="./Assets/Images/BlogImg1.webp" alt="">
+<p class="Blog-p">JUL 16</p>
+<h3 class="HoverOrng">Elegant & Essential Dinning Hall Furniture</h3>
+<p class="HoverOrng">Make a grand first impression with our elegant hall sofa, designed to bring timeless charm and refined comfort to your space.</p>
+</div>
+
+<div class="col-lg-6" id="Blog2Prent">
+  
+<div class="Blog2Card">
+<div class="ImgBlog2">
+<img src="./Assets/Images/BlogImg2.webp" alt="">
+</div>
+<div class="Blog2Cont">
+<p class="Blog-p">OCT 27</p>
+<h5 class="HoverOrng">Advantages Of Choosing Custom Furniture</h5>
+<p class="HoverOrng">Transform your dining space into a realm of sophistication and warmth with our collection of elegant dining hall furniture.</p>
+</div>
+</div>
+
+<div class="Blog2Card">
+<div class="ImgBlog2">
+<img src="./Assets/Images/BlogPjctImg2.webp" alt="">
+</div>
+<div class="Blog2Cont">
+<p class="Blog-p">JAN 05</p>
+<h5 class="HoverOrng">The Modest Living Space Furnishings Ideas</h5>
+<p class="HoverOrng">Elevate your living space with this exquisitely crafted elegant sofa, where comfort meets timeless sophistication.</p>
+</div>
+</div>
+
+<div class="Blog2Card">
+<div class="ImgBlog2">
+<img src="./Assets/Images/BlogPjctImg3.webp" alt="" id="SAI">
+</div>
+<div class="Blog2Cont">
+<p class="Blog-p">JUN 22</p>
+<h5 class="HoverOrng">The Modest Living Space Furnishings Ideas</h5>
+<p class="HoverOrng">Elevate your living space with this exquisitely crafted elegant sofa, where comfort meets timeless sophistication.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- FOR SMALL SCREENS  -->
+<div class="row d-block d-lg-none">
+<div class="col-lg-12 mt-5">
+<div class="card">
+<img src="./Assets/Images/BlogImg1.webp" alt="">
+<div class="card-body" id="BlogCard">
+<p>JUL 16</p>
+<h5>Elegant & Essential Dinning Hall Furniture</h5>
+<p>Make a grand first impression with our elegant hall sofa, designed to bring timeless charm and refined comfort to your space.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 mt-5">
+<div class="card">
+<img src="./Assets/Images/BlogImg2.webp" alt="">
+<div class="card-body" id="BlogCard">
+<p>OCT 27</p>
+<h5>Advantages Of Choosing Custom Furniture</h5>
+<p>Transform your dining space into a realm of sophistication and warmth with our collection of elegant dining hall furniture.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 mt-5">
+<div class="card">
+<img src="./Assets/Images/BlogPjctImg2.webp" alt="">
+<div class="card-body" id="BlogCard">
+<p>JAN 05</p>
+<h5>The Modest Living Space Furnishings Ideas</h5>
+<p>Elevate your living space with this exquisitely crafted elegant sofa, where comfort meets timeless sophistication.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-12 mt-5">
+<div class="card">
+<img src="./Assets/Images/BlogPjctImg3.webp" alt="">
+<div class="card-body" id="BlogCard">
+<p>JUN 22</p>
+<h5>The Modest Living Space Furnishings Ideas</h5>
+<p>Elevate your living space with this exquisitely crafted elegant sofa, where comfort meets timeless sophistication.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ======EXPLORE OUR BLOGS ENDS======== -->
+ <!-- =====LOGIN PAGE MODAL STARTS====== -->
+ <div class="modal" id="LoginPage">
+ <div class="modal-dialog">
+ <div class="modal-content">
+  <div class="modal-header">
+  <h5 class="modal-title">LOGIN HERE</h5>
+  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+  </div>
+  <div class="modal-body">
+  <form action="" id="Form">
+  
+  <div>
+  <label for="" class="form-label">Enter Your Name</label>
+  <div class="input-group">
+  <input type="text" name="" id="" class="form-control">
+  <span class="input-text"></span>
+  </div>
+  </div>
+  
+  <div>
+  <label for="" class="form-label">Enter Your Password</label>
+  <div class="input-group">
+  <input type="text" name="" id="" class="form-control">
+  <span class="input-group-text">
+  <i class="fa-solid fa-eye" id="EyeOpen"></i>
+  <i class="fa-solid fa-eye-slash" id="EyeClose"></i>
+  </span>
+  </div>
+  </div>
+
+  </form>
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+  <input type="submit" value="SUBMIT" class="btn btn-primary">
+  </div>
+  </div>
+  </div>
+  </div>
+ <!-- =====LOGIN PAGE MODAL ENDS====== -->
+  <!-- ====CONTACT PAGE STARTS=========== -->
+<section class="container-fluid py-5" id="ContactParent">
+<div class="container">
+<h5 class="text-center" style="color: #dd7210;">ABOUT US</h5>
+<div class="row pt-5">
+
+<div class="col-lg-6 col-12" id="ContactCol1">
+<div class="Contactimg">
+<img src="./Assets/Images/Contactimg1.webp" alt="">
+</div>
+<div class="ContactContent2">
+<h6 class="ContactText">WE DESIGN</h6>
+<h4>Elite Furniture for optimal Comfort</h4>
+<p>We design well, because your home deserves more than just furniture.
+Every piece we create tells a story of elegance and functionality.
+Our home accessories are crafted with care, inspired by modern lifestyles.
+From sleek lighting to cozy cushions, every detail matters.
+We blend contemporary design with timeless beauty.</p>
+</div>
+</div>
+
+<div class="col-lg-6" id="ContactCol2">
+<div class="ContactContent2">
+<h6 class="ContactText">CRAFTING FINE FURNITURE</h6>
+<h4>Elite Furniture for optimal Comfort</h4>
+<p>We design well, because your home deserves more than just furniture.
+Every piece we create tells a story of elegance and functionality.
+Our home accessories are crafted with care, inspired by modern lifestyles.
+From sleek lighting to cozy cushions, every detail matters.
+We blend contemporary design with timeless beauty.</p>
+</div>
+<div class="Contactimg">
+<img src="./Assets/Images/Contactimg2.webp" alt="">
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+  <!-- ====CONTACT PAGE ENDS=========== -->
+  <!-- =====FOOTER STARTS============== -->
+  <section class="container-fluid" id="Footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-3 col-12">
+  <h3>Teapoy</h3>
+  <p>We are committed to offering a wide range of products that bring value to your life – whether it's daily essentials, home accessories, or unique gifts.</p>
+  </div>
+  <div class="col-lg-3 col-12">
+  <h5>About</h5>
+  <p>History</p>
+  <p>Our Team</p>
+  <p>Privacy Policy</p>
+  <p>Service Offered</p>
+  <p>Product Catlog</p>
+  </div>
+  <div class="col-lg-3 col-12">
+  <h5>Information</h5>
+  <p>Store Location</p>
+  <p>Order Tracking</p>
+  <p>Affiliate</p>
+  <p>Sizing Guide</p>
+  <p>Accessibility</p>
+  </div>
+  <div class="col-lg-3 col-12">
+  <h5>Support</h5>
+  <p>Your Account</p>
+  <p>Press Release</p>
+  <p>Return Center</p>
+  <p>App Download</p>
+  <p>Advertisements</p>
+  </div>
+  </div>
+  </div>
+  <hr>
+  <div class="container" id="Credit">
+  <p>@ Designed and Created by <span id="SAI" class="mx-2">SAINARESHKUMAR</span>😊</p>
+  </div>
+  </section>
+  <!-- =====FOOTER ENDS============== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<script src="./Assets/Js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 </html>
