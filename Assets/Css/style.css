@@ -2,10 +2,13 @@
     padding:0px;
     margin:0px;
     cursor: pointer;
+    
 }
-body{
-    overflow-x: hidden;
+html,body{
+    overflow-x: hidden !important;
+    
 }
+
 /* =============HEADER CSS STARTS============= */
 /* ===============HEADER SECTION 1 CSS STARTS==========*/
 #Section1{
@@ -14,6 +17,7 @@ body{
     padding: 20px 15px;
     
 }
+
 #Container1{
     display: flex;
     justify-content: space-between;
@@ -289,7 +293,8 @@ body{
     .BgClick{
     display: flex;
     flex-direction: column;
-    
+    padding: 0 15px; /* add this */
+    width: 100%;
     align-items: center; 
     flex-wrap: wrap;
     position: absolute;
