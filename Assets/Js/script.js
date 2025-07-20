@@ -122,7 +122,7 @@ function DisplayProducts(){
     <div class="card mt-5">
     <img src="${x.img}" alt="">
     <div class="card-body">
-    <h5>${x.name}</h5>
+    <h5 style="color:black;">${x.name}</h5>
     <p>${x.price}</p>
     <button class="btn btn-dark w-100" onclick="AddToCart(${x.id})">ADD TO CART</button>
     </div>

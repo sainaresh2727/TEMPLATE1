@@ -240,12 +240,12 @@
 }
 @media (max-width:768px) {
     .Img1>img{
-    height: 200px;
-    width:  200px;
+    height: 280px;
+    width:  280px;
 }
     .Img2>img{
-    height: 200px;
-    width:  200px;
+    height: 280px;
+    width:  280px;
 }
 }
 /* =============DECORATION CSS ENDS=============== */
@@ -455,8 +455,8 @@
 }
 @media (max-width:768px) {
 .Contactimg img{
-    height: 200px;
-    width:  200px;
+    height: 280px;
+    width:  280px;
     border-radius: 30px;
     transition: 2s;
 }
