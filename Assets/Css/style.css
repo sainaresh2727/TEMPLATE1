@@ -4,10 +4,7 @@
     cursor: pointer;
     
 }
-html,body{
-    overflow-x: hidden !important;
-    
-}
+
 
 /* =============HEADER CSS STARTS============= */
 /* ===============HEADER SECTION 1 CSS STARTS==========*/
@@ -122,8 +119,8 @@ html,body{
     flex-direction: column;
     gap: 20px;
     left: 0px;
-    /* background-color: #dd7210; */
-    margin: 0px auto;
+    
+    
 }
 .carousel-caption p{
     width: 750px;
@@ -250,12 +247,12 @@ html,body{
 }
 @media (max-width:768px) {
     .Img1>img{
-    height: 280px;
-    width:  280px;
+    height: 360px;
+    width:  360px;
 }
     .Img2>img{
-    height: 280px;
-    width:  280px;
+    height: 360px;
+    width:  360px;
 }
 }
 /* =============DECORATION CSS ENDS=============== */
@@ -317,10 +314,10 @@ html,body{
 }
 .TextBuy{
     color:#dd7210;
+    text-align: center;
 }
-#AddtoContainer h3{
-    letter-spacing: 8px;
-}
+
+
 /* ==========ADD TO CART CSS ENDS================ */
 /* ==========CUSTOMER FEEDBAC CSS STARTS========== */
 #Feedback{
@@ -353,6 +350,10 @@ html,body{
     height:380px;
     width: 350px;
 } 
+#AddToCartParent h3{
+    position: relative;
+    top: 12px;
+}
 }
 /* ==========CUSTOMER FEEDBACK CSS ENDS========== */
 /* =======EXPLORE OUR BLOG CSS STARTS============ */
@@ -466,8 +467,8 @@ html,body{
 }
 @media (max-width:768px) {
 .Contactimg img{
-    height: 280px;
-    width:  280px;
+    height: 360px;
+    width:  360px;
     border-radius: 30px;
     transition: 2s;
 }

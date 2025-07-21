@@ -119,7 +119,7 @@ function DisplayProducts(){
   let content="";
   Datas.map((x,y)=>{
     content+=` <div class="col-lg-3 col-12">
-    <div class="card mt-5">
+    <div class="card mt-5" data-aos="zoom-in" data-aos-duration="3000">
     <img src="${x.img}" alt="">
     <div class="card-body">
     <h5 style="color:black;">${x.name}</h5>
