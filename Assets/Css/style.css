@@ -61,10 +61,12 @@ body,html{
 #Section-2-nav{
     background-color: #000000c4;
     color: white;
-    /* position: sticky;
+    position: sticky;
     top: 0px;
-    left: 0px; */
+    left: 0px;
     z-index: 10;
+    width: 100%;
+    overflow-x: hidden;
 }
 #Container2{
     display: flex;
