@@ -4,7 +4,9 @@
     cursor: pointer;
     
 }
-
+body,html{
+    overflow-x: hidden;
+}
 
 /* =============HEADER CSS STARTS============= */
 /* ===============HEADER SECTION 1 CSS STARTS==========*/
